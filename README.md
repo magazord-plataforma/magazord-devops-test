@@ -1,6 +1,6 @@
 <div align='center'>
  
-![Magazord](logo-magazord.png)
+![Magazord](LogoMagazord.png)
  
  </div>
 
