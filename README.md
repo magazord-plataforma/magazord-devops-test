@@ -14,8 +14,9 @@ Este repositório tem como fim testar os candidatos para vaga de devOps na empre
 As questões aqui apresentadas visam avaliar o nível de conhecimento do candidato. Leia com atenção as recomendações abaixo:
     > [!NOTE]
     > O candidato deve ter acesso à uma conta AWS para conseguir responder às questões. 
-      > [!IMPORTANT]
-      > É possível criar uma conta com email pessoal e usar os recursos demandados pela avaliação sem geração de custos;
+    > [!IMPORTANT]
+    > É possível criar uma conta com email pessoal e usar os recursos demandados pela avaliação sem geração de custos;
+    > [!NOTE]
     > A solução proposta deve atender minimamente ao enunciado da questão. Fica a critério do candidato a complementação da questão com soluções alternativas ou uso de ferramentas adicionais;
     > Todo os scripts desenvolvidos devem ter comentários documentando cada etapa;
     > [!IMPORTANT]
