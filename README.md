@@ -31,7 +31,7 @@ As questões aqui apresentadas visam avaliar o nível de conhecimento do candida
 
 Com base no cenário abaixo apresentado, elabore soluções e respostas para as questões apresentadas na sequencia da imagem.
 
-![Modelagem](image/diagrama.png)
+![Modelagem](testeAWS.png)
 
 ## Questões:
 
