@@ -17,19 +17,16 @@ As questões aqui apresentadas visam avaliar o nível de conhecimento do candida
 > O candidato deve ter acesso à uma conta AWS para conseguir responder às questões.
 
  > [!IMPORTANT]
- > **É possível criar uma conta com email pessoal e usar os recursos demandados pela avaliação sem geração de custos;**
+ > **É possível criar uma conta AWS usando email pessoal e usar os recursos demandados pela avaliação, sem custos;**
 
 > [!NOTE]
-> A solução proposta deve atender minimamente ao enunciado da questão. Fica a critério do candidato a complementação da questão com soluções alternativas ou uso de ferramentas adicionais;
+> A solução proposta deve atender minimamente ao enunciado da questão. Fica a critério do candidato a complementação da questão com soluções alternativas ou uso de ferramentas e procedimentos adicionais;
 > Todo os scripts desenvolvidos devem ter comentários documentando cada etapa;
 
-> [!IMPORTANT]
-> A execução da etapa 6 é opcional porém, é um **diferencial** na avaliação;
-
 > [!NOTE]
-> Após finalizado, os códigos elaborados devem ser disponibilizados em repositório GitHub para download.
+> Após finalizado, os códigos/documentos gerados devem ser disponibilizados em repositório GitHub para download.
 
-Com base no cenário abaixo apresentado, elabore soluções e respostas para as questões apresentadas na sequencia da imagem.
+Com base no cenário abaixo apresentado, elabore soluções e respostas para as questões apresentadas após a imagem.
 
 ![Modelagem](testeAWS.png)
 
@@ -37,10 +34,10 @@ Com base no cenário abaixo apresentado, elabore soluções e respostas para as 
 
   1. Crie a estrutura proposta (imagem anterior) na AWS usando Infraestrutura como Código (IaC) com Terraform:
      - Virtual Private Cloud (VPC);
-       - Ec2 Instance;
-         - Apache + PHP em Docker;
-       - PostgreSQL 13
-  2. Publique na instância EC2 criada anteriormente, uma página PHP qualquer em container (ex. Hello World).
+       - Ec2 Instance (t2.micro se enquadra em free tier);
+         - Docker
+         - PostgreSQL 13
+  2. Publique na instância EC2 criada anteriormente, uma página PHP qualquer em container (ex. Hello World), utilizando imagem PHP + Apache no Docker;
   3. Ainda na instância EC2, configure o serviço de banco de dados PostgreSQL instalado anteriormente para responder apenas às requisições da máquina local.
   4. Aplique o script abaixo para criação de um banco de dados que será usado como base para a próxima atividade:
       ```
@@ -53,11 +50,12 @@ Com base no cenário abaixo apresentado, elabore soluções e respostas para as 
      SELECT a.column1 FROM generate_series(1, 1000000) AS a (column1);
      ```
   5. Crie um script Python para geração de backup do banco de dados PostgreSQL e posterior armazenamento em um bucket do S3.
-  6. Construa no Jenkins (pode ser container) um projeto que busque do S3 um arquivo PHP e publique no container Apache construído anteriormente (o uso de AWS ECS é um diferencial). **\*\* Questão de realização opciona.**
+  6. Configure um servidor Jenkins (pode ser container local ou na instância criada na etapa 1), e construa uma pipeline que busque do S3 um arquivo PHP e publique no container Apache construído anteriormente (o uso de AWS ECS é um diferencial).
   7. Disponibilize um repositório do Git os seguintes arquivos:
-     - Arquivo(s) terraform da criação da Infraestrutura;
+     - Arquivo(s) terraform utilizados para a criação da Infraestrutura;
      - Script python criado para backup da base de dados;
      - Dockerfiles utilizados;
+     - Documentação dos passos executados durante a realização das questões;
      - Arquivo XML do projeto criado no Jenkins.
 
 ## Envio do teste
