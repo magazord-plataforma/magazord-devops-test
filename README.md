@@ -25,6 +25,7 @@ As questões aqui apresentadas visam avaliar o nível de conhecimento do candida
 
 > [!NOTE]
 > Após finalizado, os códigos/documentos gerados devem ser disponibilizados em repositório GitHub para download.
+> Para validação das atividades, lembre-se de expor publicamente as portas necessárias e fornecer as credenciais para acesso à instância criada.
 
 Com base no cenário abaixo apresentado, elabore soluções e respostas para as questões apresentadas após a imagem.
 
@@ -32,7 +33,7 @@ Com base no cenário abaixo apresentado, elabore soluções e respostas para as 
 
 ## Questões:
 
-  1. Crie a estrutura proposta (imagem anterior) na AWS usando Infraestrutura como Código (IaC) com Terraform:
+  1. Crie a estrutura proposta (imagem anterior) na AWS usando Infraestrutura como Código (IaC) com Terraform, na região us-east-1:
      - Virtual Private Cloud (VPC);
        - Ec2 Instance (t2.micro se enquadra em free tier);
          - Docker
