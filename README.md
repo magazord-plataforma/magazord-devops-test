@@ -5,7 +5,7 @@
  </div>
 
 # Teste para vaga de DevOps no Magazord.com.br
-Este repositório tem como fim testar os candidatos para vaga de devOps na empresa [Magazord](https://magazord.com.br).
+Este repositório tem como finalidade avaliar os candidatos para vaga de devOps na empresa [Magazord](https://magazord.com.br).
 > Para esta vaga buscamos alguém apaixonado por tecnologia e esteja sempre atento aos detalhes!
 
 
