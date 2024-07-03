@@ -21,11 +21,11 @@ As questões aqui apresentadas visam avaliar o nível de conhecimento do candida
 
 > [!NOTE]
 > A solução proposta deve atender minimamente ao enunciado da questão. Fica a critério do candidato a complementação da questão com soluções alternativas ou uso de ferramentas e procedimentos adicionais;
-> Todo os scripts desenvolvidos devem ter comentários documentando cada etapa;
+> Todos os scripts desenvolvidos devem ter cada etapa documentada;
 
 > [!NOTE]
 > Após finalizado, os códigos/documentos gerados devem ser disponibilizados em repositório GitHub para download.
-> Para validação das atividades, lembre-se de expor publicamente as portas necessárias e fornecer as credenciais para acesso à instância criada.
+> Para correta validação das atividades, lembre-se de expor publicamente as portas necessárias e fornecer as credenciais para acesso à instância criada.
 
 Com base no cenário abaixo apresentado, elabore soluções e respostas para as questões apresentadas após a imagem.
 
